@@ -1,0 +1,33 @@
+{
+    "name": "@vertu-ui/react",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "rimraf dist && npm install && tsup src/index.ts --format esm,cjs --dts --external react",
+        "dev": "rimraf dist && npm install && tsup src/index.ts --format esm,cjs --dts --watch --external react",
+        "lint": "eslint src/**/*.ts* --fix"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/react": "^18.2.21",
+        "@types/react-dom": "^18.2.7",
+        "@vertu-ui/eslint-config": "*",
+        "@vertu-ui/tokens": "*",
+        "@vertu-ui/ts-config": "*",
+        "react": "^18.2.0",
+        "rimraf": "^5.0.1",
+        "tsup": "^7.2.0",
+        "typescript": "^5.1.6"
+    },
+    "dependencies": {
+        "@radix-ui/react-avatar": "^1.0.3",
+        "@radix-ui/react-switch": "^1.0.3",
+        "@stitches/react": "^1.2.8",
+        "phosphor-react": "^1.4.1"
+    }
+}
