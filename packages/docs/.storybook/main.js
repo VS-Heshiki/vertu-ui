@@ -36,6 +36,7 @@ const config = {
         if (configType === 'PRODUCTION') {
             config.base = '/vertu-ui/'
         }
+        return config
     }
 };
 export default config;
