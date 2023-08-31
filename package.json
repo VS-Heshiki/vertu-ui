@@ -4,9 +4,8 @@
         "packages/*"
     ],
     "scripts": {
-        "clear": "npm exec --workspaces -- npx rimraf node_modules && npx rimraf node_modules && npx rimraf storybook-static",
-        "dev": "npm install && turbo run dev --parallel",
-        "build": "npm install && turbo run build"
+        "dev": "turbo run dev --parallel",
+        "build": "turbo run build"
     },
     "devDependencies": {
         "rimraf": "^5.0.1",

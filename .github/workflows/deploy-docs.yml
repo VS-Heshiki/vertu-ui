@@ -19,8 +19,6 @@ jobs:
 
             - run: npm ci
 
-            - run: npm run clear
-
             - run: npm run build
 
             - name: Deploy storybook
