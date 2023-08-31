@@ -5,6 +5,6 @@
 - [ ] Text
 - [ ] TextInput
 - [ ] Textarea
-- [ ] Checkbox
+- [ ] Switch
 - [ ] Avatar
 - [ ] MultiStep
